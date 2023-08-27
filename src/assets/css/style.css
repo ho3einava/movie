@@ -1,0 +1,127 @@
+/* css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+/* ***********************   fonts  ********************** */
+
+@font-face {
+    font-family: 'iran-sans';
+    src: url(../fonts/IRANSans-web.woff) format('wof');
+    src: url(../fonts/IranianSansBold.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'sahel';
+    src: url(../fonts/Sahel-Black-FD.eot) format('eot');
+    src: url(../fonts/Sahel-Black-FD.woff) format('woff');
+    src: url(../fonts/Sahel-FD.eot) format('eot');
+    src: url(../fonts/Sahel-FD.woff) format('woff');
+}
+
+/* ***********************   nav  ********************** */
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #151515;
+    color: white;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    font-family: 'sahel';
+    /* border: 1px solid yellow; */
+    margin-top:20px ;
+}
+.items{
+    width: 110px;
+    font-family: 'sahel';
+    font-weight: 500;
+    padding: 15px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+.logo{
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 50px;
+    /* border: 1px solid green; */
+}
+
+.auth{
+    display: flex;
+    flex-direction: row;
+    
+    /* border: 1px solid red; */
+    font-family: 'sahel';
+    font-weight: 500;
+    margin: 10px;
+    margin-right: 13rem;
+
+}
+
+.login{
+    width: 55px;
+    height: 45px;
+    background-color: rgba(0,0,0,.4);
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.signup{
+    width: 65px;
+    height: 45px;
+    background-color: rgba(0,0,0,.4);
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.image{
+    width: 400px;
+    height: 500;
+    align-items: center;
+    
+
+}
+.movie-slider{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 3rem;
+    
+    object-fit: cover;
+    opacity: 0.8;
+    
+    
+}
+.blackfade{
+    
+    opacity: 0.7;
+    z-index: 1;
+    transition: 0.7s;
+    background-color: #000;
+    overflow: hidden;
+    height: 500px;
+}
+.blackfade:hover{
+    background-color: transparent;
+    
+    opacity: 0.9;
+    
+
+
+}
