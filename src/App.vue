@@ -1,5 +1,6 @@
 <template>
 <headerWeb />
+
 <slider />
 <Home />
 </template>

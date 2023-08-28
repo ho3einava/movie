@@ -1,9 +1,9 @@
 <template>
    
-   <div class="section">
+   <div class="section ">
     <div class="container">
         <div class="row">
-      <div class="col-md-12 offset-0 mt-5">
+      <div class="col-md-12 offset-0 ">
         
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
        
