@@ -3,7 +3,7 @@
    <nav>
     <img class="logo" src="/image/fa-filimo-dark-logo.webp">
     <ul class="list">
-        <li class="items">صفحه اصلی</li>
+        <router-link to="/" class="items">صفحه اصلی</router-link>
         <li class="items">فیلم</li>
         <li  class="items">سریال</li>
         <li class="items">ایرانی</li>
@@ -11,14 +11,15 @@
     </ul>
     
     <ul class="auth">
-    <li class="login">ورود</li>
-    <li class="signup">ثبت نام</li>
+    <router-link to="/login" class="login">ورود</router-link>
+    <router-link to="/signup" class="signup">ثبت نام</router-link>
    </ul>
         <div class="menu" id="nav-btn" ><i class="bi bi-list"></i></div>
    </nav>
    <div class="shownav" id="navbar">
     <div class="close-menu" id="nav-close" > <i class="bi bi-x-lg"></i></div>  
-        <li class="items">صفحه اصلی</li>
+    <router-link to="/" class="items">صفحه اصلی</router-link>
+
         <li class="items">فیلم</li>
         <li  class="items">سریال</li>
         <li class="items">ایرانی</li>

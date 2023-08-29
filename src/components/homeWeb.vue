@@ -2,6 +2,9 @@
   <div class="container mt-5">
     <div class="row g-4 align-items-center">
       
+
+      <slider />
+      
       <div class="col-md-12 " v-for="(post , index) in posts" :key="index">
         <Card :name = "post" />
         
@@ -17,12 +20,13 @@
 <script>
 import axios from 'axios';
 import {ref} from 'vue';
-import Card from '@/components/CardsWeb.vue'
+import slider from './sliderWeb.vue';
+import Card from '@/components/CardsWeb.vue';
 
 export default{
 components:{
   Card,
-  
+  slider
 },
     setup(){
     const posts = ref([]);
