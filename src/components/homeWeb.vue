@@ -4,7 +4,7 @@
       
 
       <slider />
-      
+      <FeaturesWeb />
       <div class="col-md-12 " v-for="(post , index) in posts" :key="index">
         <Card :name = "post" />
         
@@ -22,11 +22,13 @@ import axios from 'axios';
 import {ref} from 'vue';
 import slider from './sliderWeb.vue';
 import Card from '@/components/CardsWeb.vue';
+import FeaturesWeb from './FeaturesWeb.vue';
 
 export default{
 components:{
   Card,
-  slider
+  slider,
+  FeaturesWeb
 },
     setup(){
     const posts = ref([]);
