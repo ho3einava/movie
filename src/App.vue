@@ -9,22 +9,19 @@
       <br/> 
 <router-view></router-view>
 
-<!-- <slider />
-<Home /> -->
-
+<br/>
+<footerWeb />
 </template>
 
 <script>
 
 import headerWeb from './components/header/headerWeb';
-// import Home from './components/homeWeb'
-// import slider from './components/sliderWeb.vue'
+import footerWeb from './components/footerWeb.vue'
 export default {
   name: 'App',
  components:{
   headerWeb,
-//   Home,
-//  slider
+  footerWeb
  }
 }
 </script>
